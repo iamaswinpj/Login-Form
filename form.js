@@ -2,6 +2,8 @@ function handleSubmit(){
    const message = document.getElementById('message'); 
    const message2 = document.getElementById('message2');
    const message3 = document.getElementById('message3');
+   const message4 = document.getElementById('message4');
+
    
 
    const name = document.getElementById('name').value;
@@ -11,6 +13,7 @@ function handleSubmit(){
    message.style.display = "none";
    message2.style.display = "none";
    message3.style.display = "none";
+   message4.style.display = "none";
    
 
    if(name.length == 0){
